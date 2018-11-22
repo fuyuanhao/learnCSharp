@@ -1,0 +1,16 @@
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\bin\Debug\fyh53_7_1.exe.config
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\bin\Debug\fyh53_7_1.exe
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\bin\Debug\fyh53_7_1.pdb
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\fyh53_7_1.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\MainWindow.baml
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\MainWindow.g.cs
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\App.g.cs
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\fyh53_7_1_MarkupCompile.cache
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\fyh53_7_1.g.resources
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\fyh53_7_1.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\fyh53_7_1.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\fyh53_7_1.exe
+c:\users\dell\documents\visual studio 2013\Projects\fyh53_7_1\fyh53_7_1\obj\Debug\fyh53_7_1.pdb
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\bin\Debug\fyh53_7_1.exe.config
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\fyh53_7_1.exe
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\fyh53_7_1.pdb

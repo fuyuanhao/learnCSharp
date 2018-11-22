@@ -1,0 +1,16 @@
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\bin\Debug\fyh53_7_1.exe.config
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\bin\Debug\fyh53_7_1.exe
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\bin\Debug\fyh53_7_1.pdb
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\fyh53.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\MainWindow.baml
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\MainWindow.g.cs
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\App.g.cs
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\fyh53_7_1_MarkupCompile.cache
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\fyh53_7_1.g.resources
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\fyh53_7_1.Properties.Resources.resources
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\fyh53.csproj.GenerateResource.Cache
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\fyh53_7_1.exe
+C:\Users\dell\Desktop\fyh53\fyh53_7_1\obj\Debug\fyh53_7_1.pdb
+C:\Users\dell\Desktop\fyh53_draw_1_struct\fyh53_7_1\bin\Debug\fyh53_7_1.exe.config
+C:\Users\dell\Desktop\fyh53_draw_1_struct\fyh53_7_1\obj\Debug\fyh53_7_1.exe
+C:\Users\dell\Desktop\fyh53_draw_1_struct\fyh53_7_1\obj\Debug\fyh53_7_1.pdb
