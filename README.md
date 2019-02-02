@@ -8,4 +8,4 @@ Draw point line circle rectangle polyline with C#
 
 橡皮线及点选功能的初步实现
 
- ![image](https://github.com/fuyuanhao/learnCSharp/blob/master/img.png)
+ ![image](https://github.com/fuyuanhao/learnCSharp/blob/master/show.png)
