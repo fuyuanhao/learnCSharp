@@ -1,0 +1,94 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Properties="clr-namespace:fuyuanhao.Properties" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="fuyuanhao.MainWindow"
+        Title="GIS开发练习_付元昊"  Icon="Resources/logo.png" Height="700" Width="1024" VerticalAlignment="Bottom">
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="199*"/>
+            <RowDefinition Height="16*"/>
+        </Grid.RowDefinitions>
+        <Menu Height="23" VerticalAlignment="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="New" Click="bnNew_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Resources/new.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Open" Click="bnOpen_Click">
+                    <MenuItem.Icon>
+                        <Image Source="Resources/open.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Save" Click="bnSave_Click">
+                    <MenuItem.Icon>
+                        <Image Source="Resources/save.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="miExit" Header="Exit" Click="miExit_Click"/>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem x:Name="miClearText" Header="ClearText" Click="miClearText_Click"/>
+                <MenuItem x:Name="miShowAllText" Header="ShowAllText" Click="miShowAllText_Click"/>
+                <MenuItem Header="ClearCanvas"/>
+                <MenuItem Header="ShowCanvas"/>
+            </MenuItem>
+            <MenuItem Header="View"/>
+            <MenuItem Header="Insert"/>
+            <MenuItem Header="Selection">
+                <MenuItem x:Name="miSelectPoint" Header="Point" Click="miSelectPoint_Click"/>
+                <MenuItem x:Name="miSelectLine" Header="Line" Click="miSelectLine_Click"/>
+                <MenuItem x:Name="miSelectCircle" Header="Circle" Click="miSelectCircle_Click"/>
+                <MenuItem x:Name="miSelectRectangle" Header="Rectangle" Click="miSelectRectangle_Click"/>
+                <MenuItem x:Name="miSelectPolyline" Header="Polyline" Click="miSelectPolyline_Click"/>
+            </MenuItem>
+
+            <MenuItem Header="Geoprocessing"/>
+            <MenuItem Header="Help" Height="23"/>
+        </Menu>
+        <ToolBar Margin="0,22,0,0" Height="27" Background="#FFEBF3FB" VerticalAlignment="Top">
+            <Button Click="bnNew_Click">
+                <Image Height="16" Width="21" Source="Resources/new.png"/>
+            </Button>
+            <Button x:Name="bnOpen" HorizontalAlignment="Left" VerticalAlignment="Center" Click="bnOpen_Click">
+                <Image Height="16" Width="19" Source="Resources/open.png"/>
+            </Button>
+            <Button x:Name="bnSave" HorizontalAlignment="Left" VerticalAlignment="Center" Click="bnSave_Click">
+                <Image Height="17" Width="22" Source="Resources/save.png"/>
+            </Button>
+            <Separator/>
+            <Button x:Name="bnDrawPoint" HorizontalAlignment="Left" VerticalAlignment="Center" Click="bnDrawPoint_Click">
+                <Image Height="16" Width="18" Source="Resources/point.png"/>
+            </Button>
+            <Button x:Name="bnDrawLine" HorizontalAlignment="Left" VerticalAlignment="Center" Click="bnDrawLine_Click">
+                <Image Height="16" Width="17" Source="Resources/line.png"/>
+            </Button>
+            <Button x:Name="bnDrawCircle" HorizontalAlignment="Left" VerticalAlignment="Center" Click="bnDrawCircle_Click">
+                <Image Height="16" Width="18" Source="Resources/circle.png"/>
+            </Button>
+            <Button x:Name="bnDrawRectangle" HorizontalAlignment="Left" VerticalAlignment="Center" Click="bnDrawRectangle_Click">
+                <Image Height="16" Width="18" Source="Resources/rectangle.png"/>
+            </Button>
+            <Button x:Name="bnDrawPolyline" HorizontalAlignment="Center" VerticalAlignment="Center" Click="bnDrawPolyline_Click">
+                <Image Height="15" Width="16" Source="Resources/polyline.png"/>
+            </Button>
+            <Button x:Name="bnDrawPolygon" Content="Polygon" HorizontalAlignment="Left" VerticalAlignment="Center" Click="bnDrawPolygon_Click"/>
+        </ToolBar>
+        <Grid x:Name="gridMain" HorizontalAlignment="Left" Height="588" Margin="0,50,0,0" VerticalAlignment="Top" Width="1017" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ListBox Grid.Row ="0" x:Name="lbInfo" Margin="0"/>
+            <GridSplitter Background="Brown" Width="5" Margin="0"/>
+            <Canvas Grid.Column="1" x:Name="canvasDraw" Background="#FFE8E1E1" MouseDown="canvasDraw_MouseDown" MouseMove="canvasDraw_MouseMove" Margin="0" />
+        </Grid>
+        <StatusBar Margin="0,16.2,-0.4,-2.6" RenderTransformOrigin="0.5,0.426" Grid.Row="1">
+            <TextBlock Text="画笔状态：" HorizontalAlignment="Left"/>
+            <TextBlock x:Name="tblDrawStatus" RenderTransformOrigin="0.5,0.5"/>
+            <TextBlock Text="画笔位置：" RenderTransformOrigin="1.015,0.717"/>
+            <Label x:Name="lbPosition" Content="" FontSize="10"/>
+        </StatusBar>
+
+    </Grid>
+</Window>
